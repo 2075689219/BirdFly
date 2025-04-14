@@ -12,6 +12,9 @@ public class BirdController : MonoBehaviour
     private bool isGrounded = false; // 是否在地面上
 
 
+    void Awake()
+    {
+    }
     void Update()
     {
         MoveBird();
